@@ -44,8 +44,7 @@ MoveIt 2
 ros2_control, nav2, joint_state_publisher_gui, robot_state_publisher, etc.
 
 Screenshots
-![image alt](https://github.com/manoj5121/manoj_ros2/blob/b4685f3a29a38f68c6ad9a831f2bd18ad569a032/Screenshot%20from%202025-04-29%2019-07-00.png)
-
+![image alt](https://github.com/manoj5121/manoj_ros2/blob/main/Screenshot%20from%202025-04-29%2019-07-00.png?raw=true)
 This screenshot shows the basic mobile manipulator simulation running in Gazebo with ROS 2 Humble. The robot includes:
 
 A 4-wheeled differential drive base for navigation
