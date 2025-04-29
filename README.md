@@ -44,7 +44,17 @@ MoveIt 2
 ros2_control, nav2, joint_state_publisher_gui, robot_state_publisher, etc.
 
 Screenshots
-![Screenshot from 2025-04-29 19-07-00](https://github.com/user-attachments/assets/851c4367-ccb0-4a12-9b00-ac26bfe85dc2)
+![image alt](https://github.com/manoj5121/manoj_ros2/blob/ad6ea7ea2900585008c8d33581404401e57aa70f/Screenshot%20from%202025-04-29%2019-07-00.png)
+
+This screenshot shows the basic mobile manipulator simulation running in Gazebo with ROS 2 Humble. The robot includes:
+
+A 4-wheeled differential drive base for navigation
+A fully integrated UR5e robotic arm mounted on the base
+An OnRobot RG2 gripper attached at the end effector
+Proper joint and sensor simulation for motion planning and manipulation
+This setup serves as a foundation for testing autonomous navigation, arm motion planning via MoveIt 2, and pick-and-place tasks in simulation.
+
+
 
  License
 This project is licensed under the MIT License.
