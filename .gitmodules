@@ -1,0 +1,9 @@
+[submodule "src/Universal_Robots_ROS2_Description"]
+	path = src/Universal_Robots_ROS2_Description
+	url = https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+[submodule "src/moveit2"]
+	path = src/moveit2
+	url = https://github.com/ros-planning/moveit2.git
+[submodule "src/moveit_resources"]
+	path = src/moveit_resources
+	url = https://github.com/ros-planning/moveit_resources.git

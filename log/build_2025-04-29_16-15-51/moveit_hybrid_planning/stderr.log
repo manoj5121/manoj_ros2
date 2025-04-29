@@ -1,0 +1,6 @@
+[0mmoveit_hybrid_planning: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/build.make:76: global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/src/moveit_planning_pipeline.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:432: global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....

@@ -1,0 +1,81 @@
+[0.022s] Invoking command in '/home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/manoj/ros2_ws/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.360s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.521s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.524s] -- Found moveit_common: 2.5.9 (/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.529s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.798s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.135s] -- Found chomp_motion_planner: 2.5.9 (/home/manoj/ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake)
+[1.135s] -- Found moveit_core: 2.5.9 (/home/manoj/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.139s] [0mmoveit_chomp_optimizer_adapter: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.565s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.696s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.801s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.817s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.839s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.016s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.024s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.179s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.217s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.321s] -- Found Threads: TRUE  
+[2.458s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.468s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.522s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.705s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.819s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.244s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.277s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.277s] -- Configured cppcheck include dirs: 
+[3.277s] -- Configured cppcheck exclude dirs and/or files: 
+[3.278s] -- Added test 'xmllint' to check XML markup files
+[3.282s] -- Configuring done
+[3.315s] -- Generating done
+[3.322s] -- Build files have been written to: /home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter
+[3.337s] Invoked command in '/home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/manoj/ros2_ws/src/moveit2/moveit_planners/chomp/chomp_optimizer_adapter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter
+[3.340s] Invoking command in '/home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter -- -j12 -l12
+[3.428s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_chomp_optimizer_adapter.dir/src/chomp_optimizer_adapter.cpp.o[0m
+[20.528s] [100%] [32m[1mLinking CXX shared library libmoveit_chomp_optimizer_adapter.so[0m
+[20.876s] [100%] Built target moveit_chomp_optimizer_adapter
+[20.897s] Invoked command in '/home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter -- -j12 -l12
+[20.899s] Invoking command in '/home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter
+[20.907s] -- Install configuration: "Release"
+[20.908s] -- Execute custom install script
+[20.909s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/library_path.sh
+[20.921s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/library_path.dsv
+[20.935s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter//chomp_optimizer_adapter_plugin_description.xml
+[20.950s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/package_run_dependencies/moveit_chomp_optimizer_adapter
+[20.965s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/parent_prefix_path/moveit_chomp_optimizer_adapter
+[20.980s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/ament_prefix_path.sh
+[20.994s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/ament_prefix_path.dsv
+[21.010s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/path.sh
+[21.024s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/path.dsv
+[21.037s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.bash
+[21.051s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.sh
+[21.065s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.zsh
+[21.082s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.dsv
+[21.093s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/package.dsv
+[21.102s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/packages/moveit_chomp_optimizer_adapter
+[21.115s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_chomp_optimizer_adapter
+[21.128s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/ament_cmake_export_targets-extras.cmake
+[21.140s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterConfig.cmake
+[21.158s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterConfig-version.cmake
+[21.172s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/package.xml
+[21.185s] -- Installing: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so.2.5.9
+[21.186s] -- Set runtime path of "/home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so.2.5.9" to ""
+[21.186s] -- Installing: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so
+[21.186s] -- Installing: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterTargetsExport.cmake
+[21.187s] -- Installing: /home/manoj/ros2_ws/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterTargetsExport-release.cmake
+[21.193s] Invoked command in '/home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/chomp_motion_planner/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/manoj/ros2_ws/build/moveit_chomp_optimizer_adapter

@@ -1,0 +1,1 @@
+/home/manoj/ros2_ws/src/moveit_resources/fanuc_moveit_config/launch/demo.launch.py

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-11fa88da4b00e75eca55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_ros_move_group",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "list_move_group_capabilities::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_move_group_capabilities-Release-e6290d335ac423b6c43f.json",
+					"name" : "list_move_group_capabilities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_group::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_group-Release-7c65bcabcd1dc28311ce.json",
+					"name" : "move_group",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_move_group_capabilities_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_move_group_capabilities_base-Release-9dc178be75637f06f581.json",
+					"name" : "moveit_move_group_capabilities_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_move_group_default_capabilities::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_move_group_default_capabilities-Release-4eb29750e3cacb6a1696.json",
+					"name" : "moveit_move_group_default_capabilities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_move_group_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_move_group_uninstall-Release-fc793b44286cf6dcf11c.json",
+					"name" : "moveit_ros_move_group_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-55d57ba50d8f2856d295.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manoj/ros2_ws/build/moveit_ros_move_group",
+		"source" : "/home/manoj/ros2_ws/src/moveit2/moveit_ros/move_group"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,3 @@
+/home/manoj/ros2_ws/install/moveit_setup_framework/lib/libmoveit_setup_framework.so
+/home/manoj/ros2_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake
+/home/manoj/ros2_ws/install/moveit_setup_framework/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport-release.cmake

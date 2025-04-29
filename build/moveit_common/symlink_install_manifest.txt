@@ -1,0 +1,17 @@
+/home/manoj/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+/home/manoj/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+/home/manoj/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

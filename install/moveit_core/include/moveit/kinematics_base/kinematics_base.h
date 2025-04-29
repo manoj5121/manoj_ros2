@@ -1,0 +1,1 @@
+/home/manoj/ros2_ws/src/moveit2/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h

@@ -1,0 +1,1 @@
+/home/manoj/ros2_ws/src/moveit2/moveit_kinematics/test/launch/panda-lma-singular.test.py

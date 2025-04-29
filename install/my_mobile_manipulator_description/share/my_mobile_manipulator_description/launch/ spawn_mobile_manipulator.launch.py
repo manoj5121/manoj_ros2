@@ -1,0 +1,1 @@
+/home/manoj/ros2_ws/src/my_mobile_manipulator_description/launch/ spawn_mobile_manipulator.launch.py

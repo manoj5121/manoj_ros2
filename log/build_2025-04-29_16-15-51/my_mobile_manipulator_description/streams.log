@@ -1,0 +1,38 @@
+[0.313s] Invoking command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/manoj/ros2_ws/src/my_mobile_manipulator_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/ros2_ws/install/my_mobile_manipulator_description
+[0.331s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.476s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.476s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.582s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.582s] -- Added test 'lint_cmake' to check CMake code style
+[0.582s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.586s] -- Added test 'xmllint' to check XML markup files
+[0.590s] -- Configuring done
+[0.602s] -- Generating done
+[0.607s] -- Build files have been written to: /home/manoj/ros2_ws/build/my_mobile_manipulator_description
+[0.635s] Invoked command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/manoj/ros2_ws/src/my_mobile_manipulator_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/ros2_ws/install/my_mobile_manipulator_description
+[0.635s] Invoking command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/manoj/ros2_ws/build/my_mobile_manipulator_description -- -j12 -l12
+[0.673s] Invoked command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/manoj/ros2_ws/build/my_mobile_manipulator_description -- -j12 -l12
+[0.676s] Invoking command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/manoj/ros2_ws/build/my_mobile_manipulator_description
+[0.688s] -- Install configuration: ""
+[0.688s] -- Execute custom install script
+[0.688s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description//urdf/robot.urdf.xacro
+[0.700s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description//launch/ spawn_mobile_manipulator.launch.py
+[0.708s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description//launch/spawn_mobile_manipulator.launch.py
+[0.718s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description//launch/spawn_robot.launch.py
+[0.727s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/ament_index/resource_index/package_run_dependencies/my_mobile_manipulator_description
+[0.737s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/ament_index/resource_index/parent_prefix_path/my_mobile_manipulator_description
+[0.749s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/environment/ament_prefix_path.sh
+[0.757s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/environment/ament_prefix_path.dsv
+[0.766s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/environment/path.sh
+[0.772s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/environment/path.dsv
+[0.783s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/local_setup.bash
+[0.789s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/local_setup.sh
+[0.797s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/local_setup.zsh
+[0.807s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/local_setup.dsv
+[0.823s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/package.dsv
+[0.836s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/ament_index/resource_index/packages/my_mobile_manipulator_description
+[0.841s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/cmake/my_mobile_manipulator_descriptionConfig.cmake
+[0.856s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/cmake/my_mobile_manipulator_descriptionConfig-version.cmake
+[0.867s] -- Symlinking: /home/manoj/ros2_ws/install/my_mobile_manipulator_description/share/my_mobile_manipulator_description/package.xml
+[0.882s] Invoked command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/manoj/ros2_ws/build/my_mobile_manipulator_description

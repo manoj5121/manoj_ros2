@@ -1,0 +1,1 @@
+/home/manoj/ros2_ws/build/moveit_core/include/moveit/version.h

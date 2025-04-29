@@ -1,0 +1,22 @@
+[1.321s] Invoking command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup': PYTHONPATH=/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/build
+[1.714s] running develop
+[1.976s] Removing /home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages/my-mobile-manipulator-bringup.egg-link (link to .)
+[2.008s] Invoked command in '/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup' returned '0': PYTHONPATH=/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/build
+[2.009s] Invoking command in '/home/manoj/ros2_ws/src/my_mobile_manipulator_bringup': PYTHONPATH=/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_mobile_manipulator_bringup build --build-base /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/build install --record /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/install.log --single-version-externally-managed install_data --force
+[2.230s] running egg_info
+[2.230s] writing ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/PKG-INFO
+[2.231s] writing dependency_links to ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/dependency_links.txt
+[2.231s] writing requirements to ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/requires.txt
+[2.231s] writing top-level names to ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/top_level.txt
+[2.231s] reading manifest file '../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/SOURCES.txt'
+[2.232s] writing manifest file '../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/SOURCES.txt'
+[2.232s] running build
+[2.232s] running install
+[2.232s] running install_data
+[2.232s] copying launch/my_mobile_manipulator.launch.py -> /home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/share/my_mobile_manipulator_bringup/launch
+[2.232s] copying package.xml -> /home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/share/my_mobile_manipulator_bringup
+[2.232s] running install_egg_info
+[2.234s] Copying ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info to /home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages/my_mobile_manipulator_bringup-0.0.1-py3.10.egg-info
+[2.235s] running install_scripts
+[2.249s] writing list of installed files to '/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/install.log'
+[2.266s] Invoked command in '/home/manoj/ros2_ws/src/my_mobile_manipulator_bringup' returned '0': PYTHONPATH=/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_mobile_manipulator_bringup build --build-base /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/build install --record /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,135 @@
+[0.065s] Invoking command in '/home/manoj/ros2_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_configs_utils:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning/lib:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils:${PYTHONPATH} /usr/bin/cmake /home/manoj/ros2_ws/src/moveit2/moveit_ros/warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/ros2_ws/install/moveit_ros_warehouse
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.407s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.415s] -- Detecting CXX compiler ABI info
+[0.544s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.573s] -- Found moveit_common: 2.5.9 (/home/manoj/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.578s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.862s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.987s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.198s] [0mmoveit_ros_warehouse: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.202s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.306s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.321s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.340s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.509s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.517s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.818s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.845s] -- Looking for pthread.h
+[1.996s] -- Looking for pthread.h - found
+[1.997s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.169s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.171s] -- Found Threads: TRUE  
+[2.290s] -- Found moveit_core: 2.5.9 (/home/manoj/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[2.393s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.507s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.535s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.543s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.599s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.799s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.948s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.499s] -- Found warehouse_ros: 2.0.5 (/opt/ros/humble/share/warehouse_ros/cmake)
+[3.506s] -- Found moveit_ros_planning: 2.5.9 (/home/manoj/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[3.514s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.575s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.580s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.802s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.807s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[4.007s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[4.008s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[4.225s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.347s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.400s] -- Configured cppcheck include dirs: /home/manoj/ros2_ws/src/moveit2/moveit_ros/warehouse/include
+[4.400s] -- Configured cppcheck exclude dirs and/or files: 
+[4.402s] -- Added test 'lint_cmake' to check CMake code style
+[4.405s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.406s] -- Added test 'xmllint' to check XML markup files
+[4.410s] -- Configuring done
+[4.622s] -- Generating done
+[4.696s] -- Build files have been written to: /home/manoj/ros2_ws/build/moveit_ros_warehouse
+[4.724s] Invoked command in '/home/manoj/ros2_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_configs_utils:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning/lib:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils:${PYTHONPATH} /usr/bin/cmake /home/manoj/ros2_ws/src/moveit2/moveit_ros/warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manoj/ros2_ws/install/moveit_ros_warehouse
+[4.725s] Invoking command in '/home/manoj/ros2_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_configs_utils:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning/lib:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils:${PYTHONPATH} /usr/bin/cmake --build /home/manoj/ros2_ws/build/moveit_ros_warehouse -- -j12 -l12
+[4.830s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[20.597s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[22.061s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[32.062s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[42.323s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[42.323s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[42.339s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[85.041s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[86.389s] [ 40%] Built target moveit_warehouse
+[86.436s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[111.391s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[111.878s] [ 50%] Built target moveit_warehouse_broadcast
+[111.923s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[129.449s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[129.897s] [ 60%] Built target moveit_warehouse_services
+[129.931s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[152.171s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[152.772s] [ 70%] Built target moveit_init_demo_warehouse
+[152.809s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[171.441s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[171.955s] [ 80%] Built target moveit_warehouse_save_as_text
+[171.982s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[190.840s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[191.278s] [ 90%] Built target moveit_warehouse_import_from_text
+[191.308s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[230.404s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[231.190s] [100%] Built target moveit_save_to_warehouse
+[231.216s] Invoked command in '/home/manoj/ros2_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_configs_utils:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning/lib:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils:${PYTHONPATH} /usr/bin/cmake --build /home/manoj/ros2_ws/build/moveit_ros_warehouse -- -j12 -l12
+[231.217s] Invoking command in '/home/manoj/ros2_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_configs_utils:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning/lib:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils:${PYTHONPATH} /usr/bin/cmake --install /home/manoj/ros2_ws/build/moveit_ros_warehouse
+[231.227s] -- Install configuration: "Release"
+[231.228s] -- Execute custom install script
+[231.228s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[231.244s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[231.257s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[231.270s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[231.283s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[231.298s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[231.315s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[231.333s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[231.348s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[231.362s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[231.377s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[231.390s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[231.406s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[231.423s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[231.437s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[231.455s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[231.466s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[231.480s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[231.498s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[231.517s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[231.534s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[231.553s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[231.568s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[231.579s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[231.597s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[231.611s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[231.627s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[231.642s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[231.656s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[231.668s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[231.682s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[231.699s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[231.714s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[231.730s] -- Symlinking: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[231.745s] -- Installing: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.9
+[231.750s] -- Set runtime path of "/home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.9" to ""
+[231.750s] -- Installing: /home/manoj/ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[231.750s] -- Installing: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[231.750s] -- Installing: /home/manoj/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[231.753s] Invoked command in '/home/manoj/ros2_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_configs_utils:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/manoj/ros2_ws/install/moveit_core:/home/manoj/ros2_ws/install/moveit_resources_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_pr2_description:/home/manoj/ros2_ws/install/moveit_resources_panda_description:/home/manoj/ros2_ws/install/moveit_common:/home/manoj/ros2_ws/install/moveit_resources_prbt_support:/home/manoj/ros2_ws/install/moveit_resources:/home/manoj/ros2_ws/install/dual_arm_panda_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/manoj/ros2_ws/install/moveit_resources_fanuc_description:/home/manoj/ros2_ws/install/ur_description:/home/manoj/ros2_ws/install/my_mobile_manipulator_description:/home/manoj/ros2_ws/install/moveit_configs_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/manoj/ros2_ws/install/moveit_ros_planning/lib:/home/manoj/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/manoj/ros2_ws/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/manoj/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils:${PYTHONPATH} /usr/bin/cmake --install /home/manoj/ros2_ws/build/moveit_ros_warehouse

@@ -1,0 +1,17 @@
+[1.087s] Invoking command in '/home/manoj/ros2_ws/src/my_mobile_manipulator_bringup': PYTHONPATH=/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_mobile_manipulator_bringup build --build-base /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/build install --record /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/install.log --single-version-externally-managed install_data
+[1.396s] running egg_info
+[1.397s] writing ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/dependency_links.txt
+[1.397s] writing requirements to ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/requires.txt
+[1.397s] writing top-level names to ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/top_level.txt
+[1.398s] reading manifest file '../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/SOURCES.txt'
+[1.400s] writing manifest file '../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info/SOURCES.txt'
+[1.400s] running build
+[1.400s] running install
+[1.400s] running install_data
+[1.400s] running install_egg_info
+[1.404s] removing '/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages/my_mobile_manipulator_bringup-0.0.1-py3.10.egg-info' (and everything under it)
+[1.404s] Copying ../../build/my_mobile_manipulator_bringup/my_mobile_manipulator_bringup.egg-info to /home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages/my_mobile_manipulator_bringup-0.0.1-py3.10.egg-info
+[1.405s] running install_scripts
+[1.426s] writing list of installed files to '/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/install.log'
+[1.461s] Invoked command in '/home/manoj/ros2_ws/src/my_mobile_manipulator_bringup' returned '0': PYTHONPATH=/home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/my_mobile_manipulator_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_mobile_manipulator_bringup build --build-base /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/build install --record /home/manoj/ros2_ws/build/my_mobile_manipulator_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[1.116s] Invoking command in '/home/manoj/ros2_ws/src/moveit2/moveit_configs_utils': PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/manoj/ros2_ws/build/moveit_configs_utils/build install --record /home/manoj/ros2_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[1.460s] running egg_info
+[1.462s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[1.465s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[1.465s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[1.465s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[1.465s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[1.467s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.467s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[1.467s] running build
+[1.468s] running build_py
+[1.468s] running install
+[1.469s] running install_lib
+[1.472s] running install_data
+[1.472s] running install_egg_info
+[1.476s] removing '/home/manoj/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.9-py3.10.egg-info' (and everything under it)
+[1.476s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/manoj/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.9-py3.10.egg-info
+[1.476s] running install_scripts
+[1.501s] writing list of installed files to '/home/manoj/ros2_ws/build/moveit_configs_utils/install.log'
+[1.527s] Invoked command in '/home/manoj/ros2_ws/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/home/manoj/ros2_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manoj/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/manoj/ros2_ws/build/moveit_configs_utils/build install --record /home/manoj/ros2_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
